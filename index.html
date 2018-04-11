@@ -14,12 +14,12 @@
 <body>
     <div id="game">
         <div class="new-game">
-            <button type="button" class="btn btn-outline-success">New Game</button>
+            <button type="button" class="btn btn-outline-success" id="btn-new">New Game</button>
         </div>
         <div class="card-deck">
             <!-- player 1 -->
             <div class="card border-primary mb-3" style="max-width: 18rem;" id="player-0">
-                <div class="card-header">PLAYER 1
+                <div class="card-header" id="name-0">PLAYER 1
                 </div>
                 <div class="card-body text-secondary">
                     <h5 class="card-title" id="score-0">0</h5>
@@ -38,13 +38,13 @@
                 <!-- controls -->
                 <div class="control-btns">
                     <button type="button" class="btn btn-outline-primary btn-roll">Roll Dice</button>
-                    <button type="button" class="btn btn-outline-info">Hold</button>
+                    <button type="button" class="btn btn-outline-info btn-hold">Hold</button>
                 </div>
             </div>
 
             <!-- player 2 -->
             <div class="card border-secondary mb-3" style="max-width: 18rem;" id="player-1">
-                <div class="card-header">PLAYER 2</div>
+                <div class="card-header" id="name-1">PLAYER 2</div>
                 <div class="card-body text-secondary">
                     <h5 class="card-title" id="score-1">0</h5>
                 </div>
